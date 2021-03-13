@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Financial Budget</title>
+<link rel="icon" href="images/budget02.png" />
+<link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+</head>
+<body>
+	<h1>Create a new Budget</h1>
+	<form name="frm" action="">
+		<table>
+			<tr>
+				<td>
+					<input type="text" 
+							name="description"
+							placeholder="Description"
+							class="box01"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" 
+							name="category"
+							placeholder="Category"
+							class="box01"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="number" 
+							name="value"
+							placeholder="Value"
+							class="box02"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<select name="status" class="box01">
+					  <option value="To do">To do</option>
+					  <option value="Doing">Doing</option>
+					  <option value="Done">Done</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<input type="button" value="Add" class="button01" onclick="validation()"/>
+	</form>
+	<script src="scripts/validation.js"></script>
+</body>
+</html>
