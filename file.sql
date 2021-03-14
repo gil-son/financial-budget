@@ -10,7 +10,7 @@ thestatus ENUM("To do", "Doing", "Done") NOT NULL,
 date datetime DEFAULT CURRENT_TIMESTAMP
 );
 
- -- drop table budget;
+ -- desc budget ;
 
 
 -- CRUD
@@ -19,10 +19,24 @@ date datetime DEFAULT CURRENT_TIMESTAMP
  SELECT * FROM budget;
 
 -- CREATE
- INSERT INTO budget(thedescription, thecategory, thevalue, thestatus) VALUES('Savings account','Input',4000,'To do');
+ INSERT INTO budget(thedescription, thecategory, thevalue, thestatus) VALUES('Savings account','Input',40,'To do');
 
 -- UPDATE
-UPDATE budget SET status = 'Doing' WHERE id_budget = 1;
+UPDATE budget SET thecategory = 'Snack' WHERE id_budget = 7;
 
 -- DELETE
 DELETE FROM budget WHERE id_budget = 1;
+
+
+-- Order by value (descrescent)
+
+SELECT * FROM budget ORDER BY thevalue desc;
+
+
+
+
+
+
+
+
+
