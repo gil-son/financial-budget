@@ -10,7 +10,7 @@ public class DAO {
 	private String driver = "com.mysql.cj.jdbc.Driver";
 	private String url = "jdbc:mysql://127.0.0.1:3306/financial_budget?useTimezone=true&serverTimezone=UTC";
 	private String user = "root";
-	private String password = "38013051Q!1qqqqqqq";
+	private String password = "";
 	
 	
 	// Methods to connection
