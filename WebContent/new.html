@@ -10,7 +10,7 @@
 </head>
 <body>
 	<h1>Create a new Budget</h1>
-	<form name="frm" action="">
+	<form name="frm" action="insert">
 		<table>
 			<tr>
 				<td>
@@ -23,16 +23,15 @@
 			</tr>
 			<tr>
 				<td>
-					<input type="text" 
-							name="category"
-							placeholder="Category"
-							class="box01"
-					/>
+					<select name="category" class="box01">
+					  <option value="Input">Input</option>
+					  <option value="Output">Output</option>
+					</select>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="number" 
+					<input type="text" 
 							name="value"
 							placeholder="Value"
 							class="box02"
@@ -40,7 +39,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td>
+				<td> 
 					<select name="status" class="box01">
 					  <option value="To do">To do</option>
 					  <option value="Doing">Doing</option>
