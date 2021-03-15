@@ -1,7 +1,7 @@
 # Financial Budget
 
 
-## Um orçamento financeiro desenvolvido para web. Tem o objetivo de gerenciar uma entrada e saída de valores.
+## Orçamento financeiro desenvolvido para web. Tem o objetivo de gerenciar entrada e saída de valores.
 
 ### Pré-requisitos técnicos
 <p>Lógica de programação Orientada Objeto</p>
