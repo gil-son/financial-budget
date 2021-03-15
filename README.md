@@ -8,11 +8,11 @@
 <p>Conhecimento de CRUD usando SQL</p>
 
 
-### Pré-requisitos
+### Utilitários
 <p>Netbeans ou Eclipse</p>
 <p>Tomcat com a versão compatível a IDE</p>
 <p>MySQL Workbench</p>
-<p> Driver MySQL Connector</p>
+<p>Driver MySQL Connector</p>
 
 
 ### Arquitetura
