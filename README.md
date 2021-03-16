@@ -4,18 +4,24 @@
 ## Orçamento financeiro desenvolvido para web. Tem o objetivo de gerenciar entrada e saída de valores.
 
 ### Pré-requisitos técnicos
-<p>Lógica de programação Orientada Objeto</p>
-<p>Conhecimento de CRUD usando SQL</p>
+<ul>
+  <li>Lógica de programação Orientada Objeto</li>
+  <li>Conhecimento de CRUD usando SQL</li>
+</ul>
+
 
 
 ### Utilitários
-<p>Netbeans ou Eclipse</p>
-<p>Tomcat com a versão compatível a IDE</p>
-<p>MySQL Workbench</p>
-<p>Driver MySQL Connector</p>
-
+<ul>
+  <li>Netbeans ou Eclipse</li>
+  <li>Tomcat com a versão compatível a IDE</li>
+  <li>MySQL Workbench</li>
+  <li>Driver MySQL Connector</li>
+ </ul>
+ 
 
 ### Arquitetura
-<p>MVC<p/>
-
+<ul>
+<li>Driver MySQL Connector</li>
+</ul>
 
