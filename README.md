@@ -25,3 +25,13 @@
 <li>Driver MySQL Connector</li>
 </ul>
 
+
+### Source
+
+<ul>
+ <li>
+     <a href="https://www.youtube.com/watch?v=7VgWAxEkv_U&list=PLbEOwbQR9lqz9AnwhrrOLz9cz1-TxoiUg"> JavaEE MySQL - Curso Java WEB Level 1 - Professor José de Assis</a>
+  </li>
+</ul>
+
+
