@@ -25,6 +25,7 @@
 <li>MySQL Connector Driver</li>
 </ul>
 
+<hr>
 
 ### Source
 
